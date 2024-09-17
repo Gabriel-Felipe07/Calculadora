@@ -1,8 +1,8 @@
 namespace Calculadora
 {
-    public partial class frm_tela_splash : Form
+    public partial class tela_splash : Form
     {
-        public frm_tela_splash()
+        public tela_splash()
         {
             InitializeComponent();
         }
@@ -14,6 +14,8 @@ namespace Calculadora
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+
+
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)

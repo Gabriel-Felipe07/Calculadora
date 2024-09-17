@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class frm_tela_splash
+    partial class tela_splash
     {
         /// <summary>
         ///  Required designer variable.
@@ -49,7 +49,7 @@
             lbl_frases_carregamento.TabIndex = 1;
             lbl_frases_carregamento.Text = "Carregando...";
             // 
-            // frm_tela_splash
+            // tela_splash
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -57,7 +57,7 @@
             Controls.Add(lbl_frases_carregamento);
             Controls.Add(progressBar1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "frm_tela_splash";
+            Name = "tela_splash";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             FormClosed += Form1_FormClosed;
