@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             progressBar1 = new ProgressBar();
             lbl_frases_carregamento = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // progressBar1
@@ -38,16 +40,20 @@
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(758, 23);
             progressBar1.TabIndex = 0;
-            progressBar1.Value = 100;
             // 
             // lbl_frases_carregamento
             // 
             lbl_frases_carregamento.AutoSize = true;
-            lbl_frases_carregamento.Location = new Point(204, 178);
+            lbl_frases_carregamento.Font = new Font("Segoe UI", 10F);
+            lbl_frases_carregamento.Location = new Point(121, 168);
             lbl_frases_carregamento.Name = "lbl_frases_carregamento";
-            lbl_frases_carregamento.Size = new Size(78, 15);
+            lbl_frases_carregamento.Size = new Size(90, 19);
             lbl_frases_carregamento.TabIndex = 1;
             lbl_frases_carregamento.Text = "Carregando...";
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
             // 
             // tela_splash
             // 
@@ -70,5 +76,6 @@
 
         private ProgressBar progressBar1;
         private Label lbl_frases_carregamento;
+        private System.Windows.Forms.Timer timer1;
     }
 }
