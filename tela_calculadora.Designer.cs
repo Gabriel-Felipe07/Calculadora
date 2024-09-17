@@ -260,7 +260,7 @@
             // 
             // textbox_resultado
             // 
-            textbox_resultado.Location = new Point(7, 53);
+            textbox_resultado.Location = new Point(7, 52);
             textbox_resultado.Multiline = true;
             textbox_resultado.Name = "textbox_resultado";
             textbox_resultado.Size = new Size(280, 45);
