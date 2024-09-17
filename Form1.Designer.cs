@@ -28,12 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            progressBar1 = new ProgressBar();
+            lbl_frases_carregamento = new Label();
+            SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(21, 210);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(758, 23);
+            progressBar1.TabIndex = 0;
+            progressBar1.Value = 100;
+            // 
+            // lbl_frases_carregamento
+            // 
+            lbl_frases_carregamento.AutoSize = true;
+            lbl_frases_carregamento.Location = new Point(204, 178);
+            lbl_frases_carregamento.Name = "lbl_frases_carregamento";
+            lbl_frases_carregamento.Size = new Size(78, 15);
+            lbl_frases_carregamento.TabIndex = 1;
+            lbl_frases_carregamento.Text = "Carregando...";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lbl_frases_carregamento);
+            Controls.Add(progressBar1);
+            Name = "Form1";
+            Text = "Form1";
+            FormClosed += Form1_FormClosed;
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ProgressBar progressBar1;
+        private Label lbl_frases_carregamento;
     }
 }
