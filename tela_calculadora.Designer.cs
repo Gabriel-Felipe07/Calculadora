@@ -28,271 +28,269 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            button4 = new Button();
-            button5 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
+            bt_0 = new Button();
+            bt_ponto = new Button();
+            bt_1 = new Button();
+            bt_2 = new Button();
+            bt_3 = new Button();
+            bt_4 = new Button();
+            bt_6 = new Button();
+            bt_5 = new Button();
+            bt_8 = new Button();
+            bt_7 = new Button();
+            bt_9 = new Button();
+            bt_soma = new Button();
+            bt_divisao = new Button();
+            bt_subtracao = new Button();
+            bt_negativo = new Button();
+            bt_raiz = new Button();
+            bt_multiplicacao = new Button();
+            bt_igual = new Button();
+            bt_porcentagem = new Button();
+            textbox_resultado = new TextBox();
             SuspendLayout();
             // 
-            // label1
+            // bt_0
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 16F);
-            label1.Location = new Point(154, 68);
-            label1.Name = "label1";
-            label1.Size = new Size(103, 30);
-            label1.TabIndex = 0;
-            label1.Text = "resultado";
+            bt_0.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_0.Location = new Point(22, 289);
+            bt_0.Name = "bt_0";
+            bt_0.Size = new Size(38, 35);
+            bt_0.TabIndex = 1;
+            bt_0.Text = "0";
+            bt_0.UseVisualStyleBackColor = true;
+            bt_0.Click += button4_Click;
             // 
-            // button4
+            // bt_ponto
             // 
-            button4.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button4.Location = new Point(22, 289);
-            button4.Name = "button4";
-            button4.Size = new Size(38, 35);
-            button4.TabIndex = 1;
-            button4.Text = "0";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            bt_ponto.Font = new Font("Segoe UI", 16F);
+            bt_ponto.Location = new Point(66, 289);
+            bt_ponto.Name = "bt_ponto";
+            bt_ponto.Size = new Size(38, 35);
+            bt_ponto.TabIndex = 1;
+            bt_ponto.Text = ".";
+            bt_ponto.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // bt_1
             // 
-            button5.Font = new Font("Segoe UI", 16F);
-            button5.Location = new Point(66, 289);
-            button5.Name = "button5";
-            button5.Size = new Size(38, 35);
-            button5.TabIndex = 1;
-            button5.Text = ".";
-            button5.UseVisualStyleBackColor = true;
+            bt_1.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_1.Location = new Point(22, 248);
+            bt_1.Name = "bt_1";
+            bt_1.Size = new Size(38, 35);
+            bt_1.TabIndex = 1;
+            bt_1.Text = "1";
+            bt_1.UseVisualStyleBackColor = true;
+            bt_1.Click += button4_Click;
             // 
-            // button1
+            // bt_2
             // 
-            button1.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button1.Location = new Point(22, 248);
-            button1.Name = "button1";
-            button1.Size = new Size(38, 35);
-            button1.TabIndex = 1;
-            button1.Text = "1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button4_Click;
+            bt_2.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_2.Location = new Point(66, 248);
+            bt_2.Name = "bt_2";
+            bt_2.Size = new Size(38, 35);
+            bt_2.TabIndex = 1;
+            bt_2.Text = "2";
+            bt_2.UseVisualStyleBackColor = true;
+            bt_2.Click += button4_Click;
             // 
-            // button2
+            // bt_3
             // 
-            button2.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button2.Location = new Point(66, 248);
-            button2.Name = "button2";
-            button2.Size = new Size(38, 35);
-            button2.TabIndex = 1;
-            button2.Text = "2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button4_Click;
+            bt_3.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_3.Location = new Point(110, 248);
+            bt_3.Name = "bt_3";
+            bt_3.Size = new Size(38, 35);
+            bt_3.TabIndex = 1;
+            bt_3.Text = "3";
+            bt_3.UseVisualStyleBackColor = true;
+            bt_3.Click += button4_Click;
             // 
-            // button3
+            // bt_4
             // 
-            button3.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button3.Location = new Point(110, 248);
-            button3.Name = "button3";
-            button3.Size = new Size(38, 35);
-            button3.TabIndex = 1;
-            button3.Text = "3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button4_Click;
+            bt_4.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_4.Location = new Point(22, 207);
+            bt_4.Name = "bt_4";
+            bt_4.Size = new Size(38, 35);
+            bt_4.TabIndex = 1;
+            bt_4.Text = "4";
+            bt_4.UseVisualStyleBackColor = true;
+            bt_4.Click += button4_Click;
             // 
-            // button6
+            // bt_6
             // 
-            button6.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button6.Location = new Point(22, 207);
-            button6.Name = "button6";
-            button6.Size = new Size(38, 35);
-            button6.TabIndex = 1;
-            button6.Text = "4";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button4_Click;
+            bt_6.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_6.Location = new Point(110, 207);
+            bt_6.Name = "bt_6";
+            bt_6.Size = new Size(38, 35);
+            bt_6.TabIndex = 1;
+            bt_6.Text = "6";
+            bt_6.UseVisualStyleBackColor = true;
+            bt_6.Click += button4_Click;
             // 
-            // button7
+            // bt_5
             // 
-            button7.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button7.Location = new Point(110, 207);
-            button7.Name = "button7";
-            button7.Size = new Size(38, 35);
-            button7.TabIndex = 1;
-            button7.Text = "6";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button4_Click;
+            bt_5.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_5.Location = new Point(66, 207);
+            bt_5.Name = "bt_5";
+            bt_5.Size = new Size(38, 35);
+            bt_5.TabIndex = 1;
+            bt_5.Text = "5";
+            bt_5.UseVisualStyleBackColor = true;
+            bt_5.Click += button4_Click;
             // 
-            // button8
+            // bt_8
             // 
-            button8.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button8.Location = new Point(66, 207);
-            button8.Name = "button8";
-            button8.Size = new Size(38, 35);
-            button8.TabIndex = 1;
-            button8.Text = "5";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button4_Click;
+            bt_8.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_8.Location = new Point(66, 166);
+            bt_8.Name = "bt_8";
+            bt_8.Size = new Size(38, 35);
+            bt_8.TabIndex = 1;
+            bt_8.Text = "8";
+            bt_8.UseVisualStyleBackColor = true;
+            bt_8.Click += button4_Click;
             // 
-            // button9
+            // bt_7
             // 
-            button9.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button9.Location = new Point(66, 166);
-            button9.Name = "button9";
-            button9.Size = new Size(38, 35);
-            button9.TabIndex = 1;
-            button9.Text = "8";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button4_Click;
+            bt_7.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_7.Location = new Point(22, 166);
+            bt_7.Name = "bt_7";
+            bt_7.Size = new Size(38, 35);
+            bt_7.TabIndex = 1;
+            bt_7.Text = "7";
+            bt_7.UseVisualStyleBackColor = true;
+            bt_7.Click += button4_Click;
             // 
-            // button10
+            // bt_9
             // 
-            button10.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button10.Location = new Point(22, 166);
-            button10.Name = "button10";
-            button10.Size = new Size(38, 35);
-            button10.TabIndex = 1;
-            button10.Text = "7";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button4_Click;
+            bt_9.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_9.Location = new Point(110, 166);
+            bt_9.Name = "bt_9";
+            bt_9.Size = new Size(38, 35);
+            bt_9.TabIndex = 1;
+            bt_9.Text = "9";
+            bt_9.UseVisualStyleBackColor = true;
+            bt_9.Click += button4_Click;
             // 
-            // button11
+            // bt_soma
             // 
-            button11.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button11.Location = new Point(110, 166);
-            button11.Name = "button11";
-            button11.Size = new Size(38, 35);
-            button11.TabIndex = 1;
-            button11.Text = "9";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button4_Click;
+            bt_soma.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_soma.Location = new Point(154, 248);
+            bt_soma.Name = "bt_soma";
+            bt_soma.Size = new Size(45, 76);
+            bt_soma.TabIndex = 1;
+            bt_soma.Text = "+";
+            bt_soma.UseVisualStyleBackColor = true;
+            bt_soma.Click += button4_Click;
             // 
-            // button12
+            // bt_divisao
             // 
-            button12.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button12.Location = new Point(154, 248);
-            button12.Name = "button12";
-            button12.Size = new Size(45, 76);
-            button12.TabIndex = 1;
-            button12.Text = "+";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button4_Click;
+            bt_divisao.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_divisao.Location = new Point(205, 166);
+            bt_divisao.Name = "bt_divisao";
+            bt_divisao.Size = new Size(45, 35);
+            bt_divisao.TabIndex = 1;
+            bt_divisao.Text = "÷";
+            bt_divisao.UseVisualStyleBackColor = true;
+            bt_divisao.Click += button4_Click;
             // 
-            // button13
+            // bt_subtracao
             // 
-            button13.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button13.Location = new Point(205, 166);
-            button13.Name = "button13";
-            button13.Size = new Size(45, 35);
-            button13.TabIndex = 1;
-            button13.Text = "÷";
-            button13.UseVisualStyleBackColor = true;
-            button13.Click += button4_Click;
+            bt_subtracao.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_subtracao.Location = new Point(154, 207);
+            bt_subtracao.Name = "bt_subtracao";
+            bt_subtracao.Size = new Size(45, 35);
+            bt_subtracao.TabIndex = 1;
+            bt_subtracao.Text = "-";
+            bt_subtracao.UseVisualStyleBackColor = true;
+            bt_subtracao.Click += button4_Click;
             // 
-            // button14
+            // bt_negativo
             // 
-            button14.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button14.Location = new Point(154, 207);
-            button14.Name = "button14";
-            button14.Size = new Size(45, 35);
-            button14.TabIndex = 1;
-            button14.Text = "-";
-            button14.UseVisualStyleBackColor = true;
-            button14.Click += button4_Click;
+            bt_negativo.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_negativo.Location = new Point(110, 289);
+            bt_negativo.Name = "bt_negativo";
+            bt_negativo.Size = new Size(38, 35);
+            bt_negativo.TabIndex = 1;
+            bt_negativo.Text = "+/-";
+            bt_negativo.UseVisualStyleBackColor = true;
+            bt_negativo.Click += button4_Click;
             // 
-            // button15
+            // bt_raiz
             // 
-            button15.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button15.Location = new Point(110, 289);
-            button15.Name = "button15";
-            button15.Size = new Size(38, 35);
-            button15.TabIndex = 1;
-            button15.Text = "+/-";
-            button15.UseVisualStyleBackColor = true;
-            button15.Click += button4_Click;
+            bt_raiz.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_raiz.Location = new Point(154, 166);
+            bt_raiz.Name = "bt_raiz";
+            bt_raiz.Size = new Size(45, 35);
+            bt_raiz.TabIndex = 1;
+            bt_raiz.Text = "√";
+            bt_raiz.UseVisualStyleBackColor = true;
+            bt_raiz.Click += button4_Click;
             // 
-            // button16
+            // bt_multiplicacao
             // 
-            button16.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button16.Location = new Point(154, 166);
-            button16.Name = "button16";
-            button16.Size = new Size(45, 35);
-            button16.TabIndex = 1;
-            button16.Text = "√";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button4_Click;
+            bt_multiplicacao.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_multiplicacao.Location = new Point(205, 207);
+            bt_multiplicacao.Name = "bt_multiplicacao";
+            bt_multiplicacao.Size = new Size(45, 35);
+            bt_multiplicacao.TabIndex = 1;
+            bt_multiplicacao.Text = "x";
+            bt_multiplicacao.UseVisualStyleBackColor = true;
+            bt_multiplicacao.Click += button4_Click;
             // 
-            // button17
+            // bt_igual
             // 
-            button17.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button17.Location = new Point(205, 207);
-            button17.Name = "button17";
-            button17.Size = new Size(45, 35);
-            button17.TabIndex = 1;
-            button17.Text = "x";
-            button17.UseVisualStyleBackColor = true;
-            button17.Click += button4_Click;
+            bt_igual.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_igual.Location = new Point(205, 289);
+            bt_igual.Name = "bt_igual";
+            bt_igual.Size = new Size(45, 35);
+            bt_igual.TabIndex = 1;
+            bt_igual.Text = "=";
+            bt_igual.UseVisualStyleBackColor = true;
+            bt_igual.Click += button4_Click;
             // 
-            // button18
+            // bt_porcentagem
             // 
-            button18.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button18.Location = new Point(205, 289);
-            button18.Name = "button18";
-            button18.Size = new Size(45, 35);
-            button18.TabIndex = 1;
-            button18.Text = "=";
-            button18.UseVisualStyleBackColor = true;
-            button18.Click += button4_Click;
+            bt_porcentagem.Font = new Font("Microsoft Sans Serif", 8.25F);
+            bt_porcentagem.Location = new Point(205, 248);
+            bt_porcentagem.Name = "bt_porcentagem";
+            bt_porcentagem.Size = new Size(45, 35);
+            bt_porcentagem.TabIndex = 1;
+            bt_porcentagem.Text = "%";
+            bt_porcentagem.UseVisualStyleBackColor = true;
+            bt_porcentagem.Click += button4_Click;
             // 
-            // button19
+            // textbox_resultado
             // 
-            button19.Font = new Font("Microsoft Sans Serif", 8.25F);
-            button19.Location = new Point(205, 248);
-            button19.Name = "button19";
-            button19.Size = new Size(45, 35);
-            button19.TabIndex = 1;
-            button19.Text = "%";
-            button19.UseVisualStyleBackColor = true;
-            button19.Click += button4_Click;
+            textbox_resultado.Location = new Point(7, 53);
+            textbox_resultado.Multiline = true;
+            textbox_resultado.Name = "textbox_resultado";
+            textbox_resultado.Size = new Size(280, 45);
+            textbox_resultado.TabIndex = 2;
             // 
             // tela_calculadora
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(296, 342);
-            Controls.Add(button5);
-            Controls.Add(button14);
-            Controls.Add(button16);
-            Controls.Add(button19);
-            Controls.Add(button18);
-            Controls.Add(button17);
-            Controls.Add(button13);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button7);
-            Controls.Add(button15);
-            Controls.Add(button3);
-            Controls.Add(button10);
-            Controls.Add(button6);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(button4);
-            Controls.Add(label1);
+            Controls.Add(textbox_resultado);
+            Controls.Add(bt_ponto);
+            Controls.Add(bt_subtracao);
+            Controls.Add(bt_raiz);
+            Controls.Add(bt_porcentagem);
+            Controls.Add(bt_igual);
+            Controls.Add(bt_multiplicacao);
+            Controls.Add(bt_divisao);
+            Controls.Add(bt_soma);
+            Controls.Add(bt_9);
+            Controls.Add(bt_6);
+            Controls.Add(bt_negativo);
+            Controls.Add(bt_3);
+            Controls.Add(bt_7);
+            Controls.Add(bt_4);
+            Controls.Add(bt_8);
+            Controls.Add(bt_5);
+            Controls.Add(bt_2);
+            Controls.Add(bt_1);
+            Controls.Add(bt_0);
             Name = "tela_calculadora";
             Text = "tela_calculadora";
             ResumeLayout(false);
@@ -302,24 +300,25 @@
         #endregion
 
         private Label label1;
-        private Button button4;
-        private Button button5;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
+        private Button bt_0;
+        private Button bt_ponto;
+        private Button bt_1;
+        private Button bt_2;
+        private Button bt_3;
+        private Button bt_4;
+        private Button bt_6;
+        private Button bt_5;
+        private Button bt_8;
+        private Button bt_7;
+        private Button bt_9;
+        private Button bt_soma;
+        private Button bt_divisao;
+        private Button bt_subtracao;
+        private Button bt_negativo;
+        private Button bt_raiz;
+        private Button bt_multiplicacao;
+        private Button bt_igual;
+        private Button bt_porcentagem;
+        private TextBox textbox_resultado;
     }
 }
