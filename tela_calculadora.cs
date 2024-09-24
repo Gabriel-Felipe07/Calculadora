@@ -98,22 +98,7 @@ namespace Calculadora
             textbox_resultado.Text = "";
         }
 
-        private void bt_soma_Click(object sender, EventArgs e)
-        {
-            OperacaoSelecionada = Operacao.Adicao;
-            Valor = Convert.ToDecimal(textbox_resultado.Text);
-            textbox_resultado.Text = "";
-        }
-
-        private void bt_ponto_Click(object sender, EventArgs e)
-        {
-            if (textbox_resultado.Text.Contains(","))
-            {
-                textbox_resultado.Text += ",";
-            }
-        }
-
-        private void bt_igual_Click(object sender, EventArgs e)
+        private void bt_igual_Click_1(object sender, EventArgs e)
         {
             switch (OperacaoSelecionada)
             {
@@ -133,19 +118,24 @@ namespace Calculadora
             textbox_resultado.Text = Convert.ToString(Resultado);
         }
 
-        private void bt_limpar_Click(object sender, EventArgs e)
+        private void bt_limpar_Click_1(object sender, EventArgs e)
         {
             textbox_resultado.Text = "";
-
         }
 
-        private void tela_calculadora_Load(object sender, EventArgs e)
+        private void bt_ponto_Click_1(object sender, EventArgs e)
         {
-
+            if (!textbox_resultado.Text.Contains(","))
+            {
+                textbox_resultado.Text += ",";
+            }
         }
 
-        private void tela_calculadora_Load(object sender, EventArgs e)
+        private void bt_soma_Click_1(object sender, EventArgs e)
         {
+            OperacaoSelecionada = Operacao.Adicao;
+            Valor = Convert.ToDecimal(textbox_resultado.Text);
+            textbox_resultado.Text = "";
         }
     }
 }

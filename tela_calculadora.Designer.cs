@@ -68,6 +68,7 @@
             bt_ponto.TabIndex = 1;
             bt_ponto.Text = ".";
             bt_ponto.UseVisualStyleBackColor = true;
+            bt_ponto.Click += bt_ponto_Click_1;
             // 
             // bt_1
             // 
@@ -177,6 +178,7 @@
             bt_soma.TabIndex = 1;
             bt_soma.Text = "+";
             bt_soma.UseVisualStyleBackColor = true;
+            bt_soma.Click += bt_soma_Click_1;
             // 
             // bt_divisao
             // 
@@ -220,6 +222,7 @@
             bt_igual.TabIndex = 1;
             bt_igual.Text = "=";
             bt_igual.UseVisualStyleBackColor = true;
+            bt_igual.Click += bt_igual_Click_1;
             // 
             // textbox_resultado
             // 
@@ -237,6 +240,7 @@
             bt_limpar.TabIndex = 3;
             bt_limpar.Text = "C";
             bt_limpar.UseVisualStyleBackColor = true;
+            bt_limpar.Click += bt_limpar_Click_1;
             // 
             // tela_calculadora
             // 
