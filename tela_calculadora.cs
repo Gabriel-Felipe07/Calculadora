@@ -136,6 +136,12 @@ namespace Calculadora
         private void bt_limpar_Click(object sender, EventArgs e)
         {
             textbox_resultado.Text = "";
+
+        }
+
+        private void tela_calculadora_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void tela_calculadora_Load(object sender, EventArgs e)
