@@ -3,7 +3,7 @@ namespace Calculadora
     public partial class tela_splash : Form
     {
         tela_calculadora telaCalculadora = new tela_calculadora();
-        string caminho = @"C:\Users\SENAI\Desktop\Calculadora\frases_de_carregamento\frases.txt";
+        string caminho = @"C:\Users\SENAI\source\repos\Gabriel-Felipe07\Calculadora\frases_de_carregamento\frases.txt";
         StreamReader leitor;
         
         public tela_splash()
