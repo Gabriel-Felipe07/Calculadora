@@ -264,7 +264,6 @@
             Name = "tela_calculadora";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "tela_calculadora";
-            Load += tela_calculadora_Load;
             ResumeLayout(false);
             PerformLayout();
         }
