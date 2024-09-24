@@ -10,7 +10,7 @@ namespace Calculadora
         {
             InitializeComponent();
             timer1.Interval = 2000;
-            timer1.Tick += timer1_Tick;
+            //timer1.Tick += timer1_Tick;
             timer1.Start();
         }
 
