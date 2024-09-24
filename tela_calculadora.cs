@@ -137,5 +137,10 @@ namespace Calculadora
         {
             textbox_resultado.Text = "";
         }
+
+        private void tela_calculadora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
