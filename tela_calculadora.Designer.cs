@@ -267,6 +267,7 @@
             Controls.Add(bt_0);
             Name = "tela_calculadora";
             Text = "tela_calculadora";
+            Load += tela_calculadora_Load;
             ResumeLayout(false);
             PerformLayout();
         }
