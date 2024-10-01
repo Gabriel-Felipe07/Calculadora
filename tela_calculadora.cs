@@ -144,5 +144,12 @@ namespace Calculadora
             this.Hide();
             janelaConversaoParaFahrenheit.ShowDialog();
         }
+
+        private void fahrenheitParaCelsiusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_convetFahrenheitToCelsius janelaConversaoParaCelsius = new frm_convetFahrenheitToCelsius();
+            this.Hide();
+            janelaConversaoParaCelsius.ShowDialog();
+        }
     }
 }
