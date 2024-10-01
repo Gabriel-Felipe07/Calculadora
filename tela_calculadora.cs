@@ -151,5 +151,19 @@ namespace Calculadora
             this.Hide();
             janelaConversaoParaCelsius.ShowDialog();
         }
+
+        private void centimetrosParaPolegadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_converteCentimetrosParaPolegadas janelaCentimetrosParaPolegadas = new frm_converteCentimetrosParaPolegadas();
+            this.Hide();
+            janelaCentimetrosParaPolegadas.ShowDialog();
+        }
+
+        private void polegadasParaCentímetrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_convertePolegadasParaCentimetros janelaPolegadasParaCentimetros = new frm_convertePolegadasParaCentimetros();
+            this.Hide();
+            janelaPolegadasParaCentimetros.ShowDialog();
+        }
     }
 }

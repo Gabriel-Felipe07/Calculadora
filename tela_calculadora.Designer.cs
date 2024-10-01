@@ -270,14 +270,14 @@
             // celsiusParaFahrenheitToolStripMenuItem
             // 
             celsiusParaFahrenheitToolStripMenuItem.Name = "celsiusParaFahrenheitToolStripMenuItem";
-            celsiusParaFahrenheitToolStripMenuItem.Size = new Size(264, 30);
+            celsiusParaFahrenheitToolStripMenuItem.Size = new Size(306, 30);
             celsiusParaFahrenheitToolStripMenuItem.Text = "Celsius para fahrenheit";
             celsiusParaFahrenheitToolStripMenuItem.Click += celsiusParaFahrenheitToolStripMenuItem_Click;
             // 
             // fahrenheitParaCelsiusToolStripMenuItem
             // 
             fahrenheitParaCelsiusToolStripMenuItem.Name = "fahrenheitParaCelsiusToolStripMenuItem";
-            fahrenheitParaCelsiusToolStripMenuItem.Size = new Size(264, 30);
+            fahrenheitParaCelsiusToolStripMenuItem.Size = new Size(306, 30);
             fahrenheitParaCelsiusToolStripMenuItem.Text = "Fahrenheit para Celsius";
             fahrenheitParaCelsiusToolStripMenuItem.Click += fahrenheitParaCelsiusToolStripMenuItem_Click;
             // 
@@ -286,12 +286,14 @@
             centimetrosParaPolegadasToolStripMenuItem.Name = "centimetrosParaPolegadasToolStripMenuItem";
             centimetrosParaPolegadasToolStripMenuItem.Size = new Size(306, 30);
             centimetrosParaPolegadasToolStripMenuItem.Text = "Centímetros para Polegadas";
+            centimetrosParaPolegadasToolStripMenuItem.Click += centimetrosParaPolegadasToolStripMenuItem_Click;
             // 
             // polegadasParaCentímetrosToolStripMenuItem
             // 
             polegadasParaCentímetrosToolStripMenuItem.Name = "polegadasParaCentímetrosToolStripMenuItem";
             polegadasParaCentímetrosToolStripMenuItem.Size = new Size(306, 30);
             polegadasParaCentímetrosToolStripMenuItem.Text = "Polegadas para Centímetros";
+            polegadasParaCentímetrosToolStripMenuItem.Click += polegadasParaCentímetrosToolStripMenuItem_Click;
             // 
             // tela_calculadora
             // 
