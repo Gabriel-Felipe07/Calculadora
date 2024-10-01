@@ -21,8 +21,9 @@ namespace Calculadora
         {
             if (decimal.TryParse(textBox_fahrenheit.Text, out decimal fahrenheit))
             {
+                textBox_fahrenheit.Text = textBox_fahrenheit.Text + " °F";
                 decimal celsius = (fahrenheit - 32) * 5 / 9;
-                string stringPronta = $"{Convert.ToString(celsius)}°C";
+                string stringPronta = $"{Convert.ToString(celsius)} °C";
                 textBox_valor_convertido.Text = stringPronta;
             }
             else

@@ -21,8 +21,9 @@ namespace Calculadora
         {
             if (double.TryParse(textBox_polegadas.Text, out double polegadas))
             {
+                textBox_polegadas.Text = textBox_polegadas.Text + " In";
                 double centimetros = polegadas * 2.54;
-                string stringPronta = $"{Convert.ToString(centimetros)}cm";
+                string stringPronta = $"{Convert.ToString(centimetros)} cm";
                 textBox_valor_convertido.Text = stringPronta;
             }
             else

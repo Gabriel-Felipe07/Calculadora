@@ -33,8 +33,9 @@ namespace Calculadora
         {
             if (double.TryParse(textBox_centimetros.Text, out double centimetros))
             {
+                textBox_centimetros.Text = textBox_centimetros.Text + " cm";
                 double conta = centimetros / 2.54;
-                string stringPronta = $"{Convert.ToString(conta)}IN";
+                string stringPronta = $"{Convert.ToString(conta)} In";
                 textBox_valor_convertido.Text = stringPronta;
             }
             else
