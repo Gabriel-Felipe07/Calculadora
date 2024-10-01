@@ -16,5 +16,21 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void button_converter_Click(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(textBox_celsius.Text, out decimal celsius))
+            {
+                decimal fahrenheit = (celsius * 9 / 5) + 32;
+
+                string stringPronta = ($"{Convert.ToString(fahrenheit)}°F");
+
+                textBox_fahrenheit.Text = stringPronta;
+            }
+            else
+            {
+                MessageBox.Show("Digite um valor válido");
+            }
+        }
     }
 }

@@ -43,6 +43,7 @@
             button_converter.TabIndex = 0;
             button_converter.Text = "Converter";
             button_converter.UseVisualStyleBackColor = true;
+            button_converter.Click += button_converter_Click;
             // 
             // textBox_celsius
             // 
