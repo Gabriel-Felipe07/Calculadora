@@ -94,6 +94,7 @@
             Text = "Form1";
             FormClosed += Form1_FormClosed;
             Load += Form1_Load;
+            KeyPress += tela_splash_KeyPress;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

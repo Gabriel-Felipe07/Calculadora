@@ -49,5 +49,14 @@ namespace Calculadora
         {
 
         }
+
+        private void tela_splash_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) // Verifica se a tecla pressionada é Enter
+            {
+                progressBar1.Value = 100; // Define o valor da ProgressBar como 100
+                timer1_Tick(sender, e); // Chama o método para finalizar a tela de splash
+            }
+        }
     }
 }

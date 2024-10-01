@@ -52,6 +52,7 @@
             fahrenheitParaCelsiusToolStripMenuItem = new ToolStripMenuItem();
             centimetrosParaPolegadasToolStripMenuItem = new ToolStripMenuItem();
             polegadasParaCentímetrosToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -252,7 +253,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { conversãoToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { conversãoToolStripMenuItem, sairToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(441, 33);
@@ -294,6 +295,14 @@
             polegadasParaCentímetrosToolStripMenuItem.Size = new Size(306, 30);
             polegadasParaCentímetrosToolStripMenuItem.Text = "Polegadas para Centímetros";
             polegadasParaCentímetrosToolStripMenuItem.Click += polegadasParaCentímetrosToolStripMenuItem_Click;
+            // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Font = new Font("Segoe UI", 13F);
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(53, 29);
+            sairToolStripMenuItem.Text = "Sair";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
             // tela_calculadora
             // 
@@ -356,5 +365,6 @@
         private ToolStripMenuItem fahrenheitParaCelsiusToolStripMenuItem;
         private ToolStripMenuItem centimetrosParaPolegadasToolStripMenuItem;
         private ToolStripMenuItem polegadasParaCentímetrosToolStripMenuItem;
+        private ToolStripMenuItem sairToolStripMenuItem;
     }
 }

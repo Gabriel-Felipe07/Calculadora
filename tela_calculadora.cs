@@ -165,5 +165,10 @@ namespace Calculadora
             this.Hide();
             janelaPolegadasParaCentimetros.ShowDialog();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
