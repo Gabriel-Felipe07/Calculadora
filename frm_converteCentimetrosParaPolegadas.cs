@@ -16,5 +16,31 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void voltarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tela_calculadora janela_calculadora = new tela_calculadora();
+            this.Hide();
+            janela_calculadora.ShowDialog();
+        }
+
+        private void button_converter_Click(object sender, EventArgs e)
+        {
+            if (double.TryParse(textBox_centimetros.Text, out double centimetros))
+            {
+                double conta = centimetros / 2.54;
+                string stringPronta = $"{Convert.ToString(conta)}IN";
+                textBox_valor_convertido.Text = stringPronta;
+            }
+            else
+            {
+                MessageBox.Show("Digite um valor válido");
+            }
+        }
     }
 }
