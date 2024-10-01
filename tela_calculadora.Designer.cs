@@ -50,6 +50,8 @@
             conversãoToolStripMenuItem = new ToolStripMenuItem();
             celsiusParaFahrenheitToolStripMenuItem = new ToolStripMenuItem();
             fahrenheitParaCelsiusToolStripMenuItem = new ToolStripMenuItem();
+            centimetrosParaPolegadasToolStripMenuItem = new ToolStripMenuItem();
+            polegadasParaCentímetrosToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -259,7 +261,7 @@
             // 
             // conversãoToolStripMenuItem
             // 
-            conversãoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaFahrenheitToolStripMenuItem, fahrenheitParaCelsiusToolStripMenuItem });
+            conversãoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaFahrenheitToolStripMenuItem, fahrenheitParaCelsiusToolStripMenuItem, centimetrosParaPolegadasToolStripMenuItem, polegadasParaCentímetrosToolStripMenuItem });
             conversãoToolStripMenuItem.Font = new Font("Segoe UI", 13F);
             conversãoToolStripMenuItem.Name = "conversãoToolStripMenuItem";
             conversãoToolStripMenuItem.Size = new Size(108, 29);
@@ -278,6 +280,18 @@
             fahrenheitParaCelsiusToolStripMenuItem.Size = new Size(264, 30);
             fahrenheitParaCelsiusToolStripMenuItem.Text = "Fahrenheit para Celsius";
             fahrenheitParaCelsiusToolStripMenuItem.Click += fahrenheitParaCelsiusToolStripMenuItem_Click;
+            // 
+            // centimetrosParaPolegadasToolStripMenuItem
+            // 
+            centimetrosParaPolegadasToolStripMenuItem.Name = "centimetrosParaPolegadasToolStripMenuItem";
+            centimetrosParaPolegadasToolStripMenuItem.Size = new Size(306, 30);
+            centimetrosParaPolegadasToolStripMenuItem.Text = "Centímetros para Polegadas";
+            // 
+            // polegadasParaCentímetrosToolStripMenuItem
+            // 
+            polegadasParaCentímetrosToolStripMenuItem.Name = "polegadasParaCentímetrosToolStripMenuItem";
+            polegadasParaCentímetrosToolStripMenuItem.Size = new Size(306, 30);
+            polegadasParaCentímetrosToolStripMenuItem.Text = "Polegadas para Centímetros";
             // 
             // tela_calculadora
             // 
@@ -338,5 +352,7 @@
         private ToolStripMenuItem conversãoToolStripMenuItem;
         private ToolStripMenuItem celsiusParaFahrenheitToolStripMenuItem;
         private ToolStripMenuItem fahrenheitParaCelsiusToolStripMenuItem;
+        private ToolStripMenuItem centimetrosParaPolegadasToolStripMenuItem;
+        private ToolStripMenuItem polegadasParaCentímetrosToolStripMenuItem;
     }
 }
