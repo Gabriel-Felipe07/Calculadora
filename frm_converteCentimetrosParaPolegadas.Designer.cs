@@ -60,12 +60,14 @@
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             sairToolStripMenuItem.Size = new Size(180, 22);
             sairToolStripMenuItem.Text = "Sair";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
             // voltarToolStripMenuItem
             // 
             voltarToolStripMenuItem.Name = "voltarToolStripMenuItem";
             voltarToolStripMenuItem.Size = new Size(180, 22);
             voltarToolStripMenuItem.Text = "Voltar";
+            voltarToolStripMenuItem.Click += voltarToolStripMenuItem_Click;
             // 
             // button_converter
             // 
@@ -76,6 +78,7 @@
             button_converter.TabIndex = 1;
             button_converter.Text = "Converter";
             button_converter.UseVisualStyleBackColor = true;
+            button_converter.Click += button_converter_Click;
             // 
             // textBox_valor_convertido
             // 
