@@ -137,5 +137,12 @@ namespace Calculadora
             Valor = Convert.ToDecimal(textbox_resultado.Text);
             textbox_resultado.Text = "";
         }
+
+        private void celsiusParaFahrenheitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_convertCelsiusToFahrenheit janelaConversaoParaFahrenheit = new frm_convertCelsiusToFahrenheit();
+            this.Hide();
+            janelaConversaoParaFahrenheit.ShowDialog();
+        }
     }
 }
