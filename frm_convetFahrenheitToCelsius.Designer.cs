@@ -32,6 +32,11 @@
             textBox_fahrenheit = new TextBox();
             textBox_valor_convertido = new TextBox();
             label1 = new Label();
+            menuStrip1 = new MenuStrip();
+            arquivoToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            voltarToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // button_converter
@@ -75,6 +80,36 @@
             label1.TabIndex = 2;
             label1.Text = "Conversor de temperatuda (Fahrenheit para Celsius)";
             // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { arquivoToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.TabIndex = 3;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // arquivoToolStripMenuItem
+            // 
+            arquivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { sairToolStripMenuItem, voltarToolStripMenuItem });
+            arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
+            arquivoToolStripMenuItem.Size = new Size(61, 20);
+            arquivoToolStripMenuItem.Text = "Arquivo";
+            // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Text = "Sair";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
+            // 
+            // voltarToolStripMenuItem
+            // 
+            voltarToolStripMenuItem.Name = "voltarToolStripMenuItem";
+            voltarToolStripMenuItem.Size = new Size(180, 22);
+            voltarToolStripMenuItem.Text = "Voltar";
+            voltarToolStripMenuItem.Click += voltarToolStripMenuItem_Click;
+            // 
             // frm_convetFahrenheitToCelsius
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -84,8 +119,12 @@
             Controls.Add(textBox_valor_convertido);
             Controls.Add(textBox_fahrenheit);
             Controls.Add(button_converter);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
             Name = "frm_convetFahrenheitToCelsius";
             Text = "frm_convetFahrenheitToCelsius";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -96,5 +135,9 @@
         private TextBox textBox_fahrenheit;
         private TextBox textBox_valor_convertido;
         private Label label1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem arquivoToolStripMenuItem;
+        private ToolStripMenuItem sairToolStripMenuItem;
+        private ToolStripMenuItem voltarToolStripMenuItem;
     }
 }

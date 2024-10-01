@@ -30,5 +30,17 @@ namespace Calculadora
                 MessageBox.Show("Digite um valor válido");
             }
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void voltarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tela_calculadora janela_calculadora = new tela_calculadora();
+            this.Hide();
+            janela_calculadora.ShowDialog();
+        }
     }
 }
