@@ -3,7 +3,9 @@ namespace Calculadora
     public partial class tela_splash : Form
     {
         tela_calculadora telaCalculadora = new tela_calculadora();
-        string caminho = @"C:\Users\aluno\Desktop\Calculadora\frases_de_carregamento\frases.txt";
+        string caminho = Path.Combine(Application.StartupPath, "frases_de_carregamento", "frases.txt");
+
+
         StreamReader leitor;
 
         public tela_splash()
@@ -16,7 +18,16 @@ namespace Calculadora
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            leitor = new StreamReader(caminho);
+            if (File.Exists(caminho))
+            {
+                leitor = new StreamReader(caminho);
+            }
+            else
+            {
+                MessageBox.Show("O arquivo de frases não foi encontrado no caminho: " + caminho, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
