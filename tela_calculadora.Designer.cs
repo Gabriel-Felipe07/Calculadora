@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(tela_calculadora));
             bt_0 = new Button();
             bt_ponto = new Button();
             bt_1 = new Button();
@@ -349,11 +350,12 @@
             Controls.Add(bt_1);
             Controls.Add(bt_0);
             Controls.Add(menuStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             Margin = new Padding(3, 4, 3, 4);
             Name = "tela_calculadora";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "tela_calculadora";
+            Text = "Calculadora";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
